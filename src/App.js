@@ -2,6 +2,7 @@ import React from 'react';
 import ReadOnlyCount from './components/example/ReadOnlyCount';
 import ReadWriteCount from './components/example/ReadWriteCount';
 import './App.css';
+import SelectorCount from './components/example/SelectorCount';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <>
           <ReadWriteCount />
           <ReadOnlyCount />
+          <SelectorCount />
         </>
     </div>
   );
